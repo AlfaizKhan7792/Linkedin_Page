@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.container{
+    background: url(./background_avatar.2) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+    min-height: 100vh;
+    /* width: 100%; */
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    gap: 20px;
+    /* padding: 50px; */
+     
+    
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    background: transparent;
+    border: 1px solid #000;
+    backdrop-filter: blur(20px);
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+
+}
+
+.card:hover{
+    box-shadow: 10px 8px 12px 2px rgba(0,0,0,0.75);
+}
+
+p{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+.card img{
+    
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 200px;
+}
+
+.card img:hover{
+    border: 2px solid #000;
+}
+#mutual{
+    font-size: 20px;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    background-color: aquamarine;
+    margin-top: 20px;
+    border-radius: 200px;
+    font-size: 18px;
+    background: none;
+    border: 1px solid white;
+    color:aliceblue;
+}
+
+button:hover{
+    color: black;
+}
